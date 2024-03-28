@@ -1,5 +1,5 @@
-import { getPostBySlug } from "@/app/utils/mdx";
-import Container from "@/app/utils/container";
+import { getPostBySlug } from "@/components/mdx";
+import Container from "@/components/Container";
 
 const getPageContent = async (slug : any) => {
   const { meta, content } = await getPostBySlug(slug);

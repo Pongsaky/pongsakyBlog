@@ -1,5 +1,5 @@
 import Hello from '@/app/content/hello.mdx'
-import Container from '@/app/utils/container';
+import Container from '@/components/Container';
 
 const Home = () => {
   return (

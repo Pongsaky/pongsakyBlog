@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { getAllPostsMeta } from "@/app/utils/mdx";
-import Container from "../utils/container";
-import Showcase from "../components/showcase";
+import { getAllPostsMeta } from "@/components/mdx";
+import Container from "@/components/Container";
+import Showcase from "@/components/Showcase";
 
 const Page = async () => {
   const posts = await getAllPostsMeta();

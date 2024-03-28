@@ -3,7 +3,7 @@ import path from "path";
 import { compileMDX } from "next-mdx-remote/rsc";
 import preContentSelect from "./preContentSelect";
 
-const rootDirectory = path.join(process.cwd(), "src", "app", "content");
+const rootDirectory = path.join(process.cwd(), "src", "content");
 
 export const getPostBySlug = async (slug: string) => {
   const realSlug = slug.replace(/\.mdx$/, "");
